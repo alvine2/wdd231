@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Directory | Chamber ugandá">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://demetrioaris.github.io/wdd231/chamber/images/logo-chamber-modified-small.webp">
+    <meta property="og:url" content="https://demetrioaris.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Chamber of Panamá, Join us to get more information">
+    <meta property="fb:app_id" content="your-app-id-here">
+
+
+    <title>Discover | Ugandá  Chamber of Commerce</title>
+    <meta name="description" content="Chamber directory, ugandá" />
+    <meta name="author" content="kinyera Alvine" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+
+    <script type="module" src="./scripts/app.js"></script>
+    <script src="./scripts/modules/discover.js" defer></script>
+
+
+    <link rel="icon" href="images/logo.png" sizes="48x48" type="image/ico">
+    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="discover-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/logo.png" alt="Logo Chamber Panama" />
+                <h1 class="nameHeader">Ugandá  City<br>Chamber of Ecomerces</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./discover.html">Discover</a></li>
+                <li><a class="nav-a " href="./directory.html">Directory</a></li>
+                <li><a class="nav-a " href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="discover">
+        <section class="side-bar">
+            <article class="article-01">
+                <header>
+                    <h3>Demographics</h3>
+                </header>
+                <ul>
+                    <li><strong>Capital:</strong> Ugandá  City</li>
+                    <li><strong>Currencies:</strong> Ugandan shillings, Kampala</li>
+                    <li><strong>Official language:</strong> English</li>
+                    <li><strong>Population:</strong> 4,515,577</li>
+                    <li><strong>Dialing code:</strong> +256</li>
+                </ul>
+            </article>
+            <article id="article-02" class="article-02">
+            </article>
+            <article class="article-03">
+                <table id="calendar">
+                    <caption></caption> <!-- Moved out of thead -->
+                    <thead>
+                        <tr>
+                            <th>Dom</th>
+                            <th>Lun</th>
+                            <th>Mar</th>
+                            <th>Mie</th>
+                            <th>Jue</th>
+                            <th>Vie</th>
+                            <th>Sab</th>
+                        </tr>
+                    </thead>
+                    <tbody> </tbody>
+                </table>
+            </article>
+
+        </section>
+        <section class="local-photos">
+            <figure>
+                <img data-src="images/download.jpg" src="images/download.jpg"
+                    alt="Beautiful sunset over the beach" class="lazy-image" loading="lazy">
+                <figcaption>Beautiful sunset over the beach</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/mombasa.jpg" src="images/mombasa.jpg" alt="mombasa"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Kampala</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/jinja.jpg" src="images/jinja.jpg" alt="jinja"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Masindi</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/jinja.jpg" src="images/jinja.jpg" alt="Gulu"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Gulu</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/download.jpg" src="images/download.jpg" alt="jinja"
+                    class="lazy-image" loading="lazy">
+                <figcaption>jinja</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/mombasa.jpg" src="images/mombasa.jpg" alt="mobasa"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Mombasa</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Kinyera Alvine |
+            ugandá</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

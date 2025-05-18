@@ -1,0 +1,90 @@
+[
+  {
+    "Name": "MTN Uganda",
+    "Industry": "Telecommunications",
+    "Physical Address": "MTN Towers, Kampala Road, Kampala",
+    "Website": "https://www.mtn.co.ug/",
+    "Phone": "0312120000",
+    "Representative": "Wim Vanhelleputte / CEO",
+    "MemberSince": "2010-06-15",
+    "Membership": "Gold",
+    "logo": "https://www.mtn.com/wp-content/themes/mtn-refresh/public/img/mtn-logo.svg"
+  },
+  {
+    "Name": "SafeBoda",
+    "Industry": "Transport & Technology",
+    "Physical Address": "Plot 145, Kyadondo Rd, Kampala",
+    "Website": "https://safeboda.com/ug/",
+    "Phone": "0700574000",
+    "Representative": "Ricky Rapa Thompson / Co-Founder",
+    "MemberSince": "2018-04-01",
+    "Membership": "Silver",
+    "logo": "https://cdn.prod.website-files.com/630c89e33df16d6893e94a91/630d07362115daab7eefe2a9_Full%20Logo.svg"
+  },
+  {
+    "Name": "Mukwano Group",
+    "Industry": "Manufacturing",
+    "Physical Address": "Mukwano Industrial Area, 8th Street, Kampala",
+    "Website": "http://www.mukwano.com/",
+    "Phone": "0414230300",
+    "Representative": "Alykhan Karmali / Director",
+    "MemberSince": "2005-09-20",
+    "Membership": "Platinum",
+    "logo": "https://mukwano.com/wp-content/uploads/2020/08/mukwano-logo.png"
+  },
+  {
+    "Name": "DFCU Bank",
+    "Industry": "Finance",
+    "Physical Address": "Plot 26, Kyaddondo Road, Kampala",
+    "Website": "https://www.dfcugroup.com/",
+    "Phone": "0414351700",
+    "Representative": "Mathias Katamba / Managing Director",
+    "MemberSince": "2000-01-10",
+    "Membership": "Gold",
+    "logo": "https://www.dfcugroup.com/wp-content/themes/dfcu-bank/images/dfcu-60years.svg"
+  },
+  {
+    "Name": "Uganda Breweries Limited",
+    "Industry": "Beverage & Brewing",
+    "Physical Address": "Port Bell Road, Luzira, Kampala",
+    "Website": "https://ugandabreweries.diageoplatform.com/",
+    "Phone": "0414220331",
+    "Representative": "Andrew Kilonzo / Managing Director",
+    "MemberSince": "1998-11-01",
+    "Membership": "Gold",
+    "logo": "https://www.nilebreweries.com/wp-content/uploads/2023/10/age-gate-header.svg"
+  },
+  {
+    "Name": "Jumia Uganda",
+    "Industry": "Ecommerce shopping",
+    "Physical Address": "Lumumba Avenue, Kampala",
+    "Website": "https://www.jumia.ug/",
+    "Phone": "0414220331",
+    "Representative": " Kilonzo / Managing Director",
+    "MemberSince": "1998-11-01",
+    "Membership": "Gold",
+    "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACpElEQVRYhbWXwXXaQBCGv1n8/DgqFUSuIEoFTjpwBxGHPIeXg+nAuILgQx4xPgh3QAeJK7BSgeUKrGOeY3ZyWBAIyWhlyJyQmJ3/3393RjOCp2lCwB9O6HAMRCghECz+zhEyIGXOLV1m0iP3iSuNwGNCDjjDEq8B+kSeMudC+mSvIqAJAU+cAwNv0DozDOUzF60I6JgQw08gbAif4VRpUibD8rFODbMDOFhusFw2+uFi6rgas6RAK/DFruiS88Q9fvejokRZAX9wsNxIn0x65J4qwFKJZEW2IKDXnHuDu7OfFk9dRuCXdkC4uNwrAjomxDL0DFDsfvnYUgWAwfI+OAU6K0aeNq28aacCiEtvWeT7o/dC5VK+1NcGvWIAfPOMlHPIkeiYGEOyAZIBKfCAJaNDhiVtqmrF8u9EGAKUCEMIvANCZOOOWXoHdDhG114KUzml57mLWpOvpIufv0rEJiQocfGiw7FBicr0iXWyocgerALusCJDXertmUQtuLPQ8FIF2xOJLeAAQeVbUEdivXLtERxwdWB77ioxf8vl0xP8rgkcyA14pJYS+XY4a2tCD6/MYPnt4Zg2u1SDN3oIqWEjV2tNeWgN77OxObeGLjOa7oF4kNw09VCty8xIjxzlZqujrQbTMaFOSHRCUtfp0Gk4AmEqPXcJQRk1ECgU0oRArznHcI8So8QY7itEakiXbO4a1aIl0x+MEM5qXHM55Y0mBDxzhmXAtvbLMOTZ9Qt6xWOtr+VC+q7/WBFwn+U7qqU5xTBrBC5bhmGK5QQ2vjWQySlHy4ddmtLXWKUprcwF/5FE7Wyw62CyEzjUDCYA0l+ck315pPI25ZJD3r/UTfkNpzDE8KkFrKstyujVw2mFyHI8hw8IbxEi1sdzyFBStN14/g8wmx1JLv2z9gAAAABJRU5ErkJggg=="
+  },
+  {
+    "Name": "Stanbic bank",
+    "Industry": "fin-tech",
+    "Physical Address": "Port Bell Road, Luzira, Kampala",
+    "Website": "https://www.stanbicbank.co.ug/uganda/personal",
+    "Phone": "0414220331",
+    "Representative": "Andrew Kilonzo / Managing Director",
+    "MemberSince": "1998-11-01",
+    "Membership": "Gold",
+    "logo": "https://imgs.search.brave.com/STFyD2_conCm7Ff9RaWDdCEva3NS5vYd9wsQZT2LQqU/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzhjNzFkZmE2/MTgyNWM4ZWVkODU1/MDIwN2YzM2MzMzhk/Mjk0ZGQzNGM3NjIz/N2E2OTQ2M2FkODQ4/ODc5YjRkNC93d3cu/c3RhbmJpY2Jhbmsu/Y28udWcv"
+  },
+  {
+    "Name": "Centenary Bank",
+    "Industry": "Finance",
+    "Physical Address": "Plot 1, Cooper Road, Nakasero, Kampala",
+    "Website": "https://www.centenarybank.co.ug/",
+    "Phone": "0414220331",
+    "Representative": "Andrew Kilonzo / Managing Director",
+    "MemberSince": "1998-11-01",
+    "Membership": "Gold",
+    "logo": "https://imgs.search.brave.com/KzqRD6BSuMBSGv9RhLFtm1jPtRfBHeiBdNLYKxi_bqc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYzczNTYwN2U1/NzRhYTA1MzQyZTg4/NjUzMjEzOTFlNDFl/MmY5ZmRjN2M0NTMx/MDUwMjY2NjU2Zjk4/NTNmZDRkYi93d3cu/Y2VudGVuYXJ5YmFu/ay5jby51Zy8"
+  }
+]

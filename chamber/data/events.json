@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "name": " Business Forum",
+            "date": "2024-11-15"
+        },
+        {
+            "name": " Gala",
+            "date": "2024-12-05"
+        },
+        {
+            "name": " Business Expo",
+            "date": "2025-01-20"
+        },
+        {
+            "name": " Workshop",
+            "date": "2025-02-10"
+        },
+        {
+            "name": " Awards Ceremony",
+            "date": "2025-03-15"
+        }
+    ]
+}
