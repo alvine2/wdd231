@@ -1,62 +1,61 @@
 var actual = new Date();
 
-function mostrarCalendario(year, month) {
+function showCalendar(year, month) {
     var now = new Date(year, month - 1, 1);
     var last = new Date(year, month, 0);
-    var primerDiaSemana = now.getDay(); // No adjustment needed, Sunday is 0
-    var ultimoDiaMes = last.getDate();
-    var dia = 0;
-    var resultado = "<tr>"; // No background color here
-    var diaActual = 0;
-    console.log(ultimoDiaMes);
-    var last_cell = primerDiaSemana + ultimoDiaMes;
+    var firstDayOfWeek = now.getDay(); // No adjustment needed, Sunday is 0
+    var lastDayOfMonth = last.getDate();
+    var day = 0;
+    var result = "<tr>"; // No background color here
+    var currentDay = 0;
+    console.log(lastDayOfMonth);
+    var last_cell = firstDayOfWeek + lastDayOfMonth;
 
-    // hacemos un bucle hasta 42 (6 filas de 7 días)
+    // loop until 42 (6 rows of 7 days)
     for (var i = 1; i <= 42; i++) {
-        if (i == primerDiaSemana + 1) {
-            // determinamos en qué día empieza
-            dia = 1;
+        if (i == firstDayOfWeek + 1) {
+            // determine on which day it starts
+            day = 1;
         }
-        if (i <= primerDiaSemana || i >= last_cell) {
-            // celda vacía
-            resultado += "<td>&nbsp;</td>";
+        if (i <= firstDayOfWeek || i >= last_cell) {
+            // empty cell
+            result += "<td>&nbsp;</td>";
         } else {
-            // mostramos el día
+            // show the day
             if (
-                dia == actual.getDate() &&
+                day == actual.getDate() &&
                 month == actual.getMonth() + 1 &&
                 year == actual.getFullYear()
             )
-                resultado += "<td class='hoy'>" + dia + "</td>";
-            // Día actual con la clase 'hoy'
+                result += "<td class='today'>" + day + "</td>";
+            // Current day with class 'today'
             else
-                resultado +=
-                    "<td style='background-color: silver;'>" + dia + "</td>"; // Solo aplica el fondo en los días
-            dia++;
+                result +=
+                    "<td style='background-color: silver;'>" + day + "</td>";
+            day++;
         }
         if (i % 7 == 0) {
-            if (dia > ultimoDiaMes) break;
-            resultado += "</tr><tr>\n";
+            if (day > lastDayOfMonth) break;
+            result += "</tr><tr>\n";
         }
     }
-    resultado += "</tr>";
+    result += "</tr>";
 
-    var meses = [
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre",
+    var months = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
     ];
 
-    // Calculamos el siguiente mes y año
     var nextMonth = month + 1;
     var nextYear = year;
 
@@ -65,7 +64,6 @@ function mostrarCalendario(year, month) {
         nextYear = year + 1;
     }
 
-    // Calculamos el anterior mes y año
     var prevMonth = month - 1;
     var prevYear = year;
 
@@ -74,21 +72,20 @@ function mostrarCalendario(year, month) {
         prevYear = year - 1;
     }
 
-    // Actualizamos el contenido del caption y el tbody
     document
         .getElementById("calendar")
         .getElementsByTagName("caption")[0].innerHTML =
         "<div>" +
-        meses[month - 1] +
+        months[month - 1] +
         " / " +
         year +
         "</div>" +
-        "<div><a href='javascript:void(0)' onclick='mostrarCalendario(" +
+        "<div><a href='javascript:void(0)' onclick='showCalendar(" +
         prevYear +
         "," +
         prevMonth +
         ")'>&lt;</a> " +
-        "<a href='javascript:void(0)' onclick='mostrarCalendario(" +
+        "<a href='javascript:void(0)' onclick='showCalendar(" +
         nextYear +
         "," +
         nextMonth +
@@ -96,11 +93,10 @@ function mostrarCalendario(year, month) {
 
     document
         .getElementById("calendar")
-        .getElementsByTagName("tbody")[0].innerHTML = resultado;
+        .getElementsByTagName("tbody")[0].innerHTML = result;
 }
 
-// Inicializar el calendario con el mes actual
-mostrarCalendario(actual.getFullYear(), actual.getMonth() + 1);
+showCalendar(actual.getFullYear(), actual.getMonth() + 1);
 
 document.addEventListener("DOMContentLoaded", function () {
     const lazyImages = document.querySelectorAll(".lazy-image");
@@ -156,21 +152,18 @@ document.addEventListener("DOMContentLoaded", function () {
             function updateImage() {
                 const event = events[currentImageIndex];
                 imageContainer.src = `images/${event.image}`;
-                imageContainer.alt = event.description; // Add alt attribute
-                imageContainer.loading = "lazy"; // Add lazy loading
+                imageContainer.alt = event.description;
+                imageContainer.loading = "lazy";
                 descriptionContainer.textContent = event.description;
 
-                // Move to the next image after 3 seconds
                 currentImageIndex = (currentImageIndex + 1) % events.length;
             }
 
-            // Initial load
             updateImage();
 
-            // Update image every 10 seconds with animation
             setInterval(() => {
                 imageContainer.classList.remove("fade-in");
-                void imageContainer.offsetWidth; // Re-trigger CSS animation
+                void imageContainer.offsetWidth;
                 imageContainer.classList.add("fade-in");
                 updateImage();
             }, 10000);
