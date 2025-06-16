@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Kinyera Alvine">
+    <meta name="keywords" content="Uganda, travel, experience, adventure, culture">
+     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+     <link rel="manifest" href="images/favicon_io/site.webmanifest">
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="Home | Uganda Experience">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Discover the magic of Uganda through breathtaking landscapes, rich culture, and unforgettable adventures.">
+    <meta property="og:image" content="images/ug flag.webp">
+    <meta property="og:url" content="https://github.com/alvine2">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Visit us | Uganda Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/ug flag.webp" alt="Logo Chamber Uganda" />
+                <h1 class="nameHeader"><strong>Uganda</strong> <br>Experience</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thank-you">
+            <div class="thank-you-content">
+                <h1>Thank You!</h1>
+                <p>We appreciate your interest and your trust in us.</p>
+                <p>Your booking has been confirmed, and we're excited to be a part of your journey!</p>
+                <a href="index.html" class="button">Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+     <footer>
+        <p>&copy;<span id="currentyear">2024</span> - kinyera Alvine</p>
+        <p id="lastModified">Last updated on: <span id="lastMod"></span></p>
+        <p><a href="https://www.loom.com/share/2fcf4baae2124f5385f285c6c13b6d32?sid=dc26538f-1e89-4191-a38e-fec60b10f3e0" target="_blank">Video Demo</a></p>
+    </footer>
+
+    <script>
+        // footer
+        document.getElementById("currentyear").textContent =
+            new Date().getFullYear();
+        document.getElementById(
+            "lastModified"
+        ).textContent = `Last Modified: ${document.lastModified}`;
+    </script>
+</body>
+
+</html>
